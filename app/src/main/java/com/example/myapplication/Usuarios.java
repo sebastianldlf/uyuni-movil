@@ -1,6 +1,14 @@
 package com.example.myapplication;
 
 public class Usuarios {
+    public Usuarios(String nombre, String apellido, String contrasena, String email, String telefono) {
+        Nombre = nombre;
+        Apellido = apellido;
+        Contrasena = contrasena;
+        Email = email;
+        Telefono = telefono;
+    }
+
     public String getNombre() {
         return Nombre;
     }
